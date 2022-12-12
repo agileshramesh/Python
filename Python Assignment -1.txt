@@ -1,0 +1,161 @@
+## Assignment Part-1
+Q1. Why do we call Python as a general purpose and high-level programming language?
+
+Python can be used in mutiple domains.
+Because of its easy readablity,It is called high-level programming language.
+
+Q2. Why is Python called a dynamically typed language?
+
+ Variables in python can have different type with different time without declaration.
+
+Q3. List some pros and cons of Python programming language?
+
+pro:
+Easy readablity
+Time consumption
+Easy to code
+Can be used in multiple domains
+Cons:
+Slow execution.
+
+Q4. In what all domains can we use Python?
+
+Developing website
+Data analysis
+Data visualisation
+Machine learing
+
+Q5. What are variable and how can we declare them?
+
+Variables are used for the memory allocation for the data. 
+We can declare them using assignment operator.
+
+Q6. How can we take an input from the user in Python?
+
+We can use input() for getting the input from the user.
+
+Q7. What is the default datatype of the value that has been taken as an input using input() function?
+
+String the default datatype which is taken from the user as input.
+
+Q8. What is type casting?
+
+Converting one datatype into another datatype.
+
+Q9. Can we take more than one input from the user using single input() function? If yes, how? If no, why?
+
+No,we can't take more then one input from the user using single input() function because it is meant from single input.
+
+Q10. What are keywords?
+
+Key words are reserved words used for specific purposes
+
+Q11. Can we use keywords as a variable? Support your answer with reason.
+
+No we can't, because keys are specific words with purposes which can not be used as variable
+
+Q12. What is indentation? What's the use of indentaion in Python?
+
+Indentation is that giving the code a format or pattern for better code standard and understanding
+
+Q13. How can we throw some output in Python?
+
+We can throw some output using print() function.
+
+Q14. What are operators in Python?
+
+Operators are symbols used between the operands for performing the any function.
+
+Q15. What is difference between / and // operators?
+
+/ is the division operator for the float value.
+And // is the division operator for the int value.
+
+Q16. Write a code that gives following as an output.
+```
+iNeuroniNeuroniNeuroniNeuron
+```
+print("iNeuroniNeuroniNeuroniNeuron")
+
+Q17. Write a code to take a number as an input from the user and check if the number is odd or even.
+
+value = int(input())
+if value%2==0 and value != 0:
+   print("The number is Even")
+elif value%2!=0 and value != 0:
+    print("The number is Odd")
+else:
+    print("Neither Even nor Odd")    
+
+Q18. What are boolean operator?
+
+It is an operator gives the output true or false based on the given condition.
+
+Q19. What will the output of the following?
+```
+1 or 0 = 1
+
+0 and 0 = 0
+
+True and False and True = false
+
+1 or 0 or 0 =1
+```
+
+Q20. What are conditional statements in Python?
+
+'if', 'elif' and 'else' are the conditional statements
+
+Q21. What is use of 'if', 'elif' and 'else' keywords?
+
+'if' is used for checking the condition and proceed with the code.
+'elif' is used if we have more than two conditions
+'else' is used for the remaining conditions
+
+Q22. Write a code to take the age of person as an input and if age >= 18 display "I can vote". If age is < 18 display "I can't vote".
+
+value = input()
+if value>= 18:
+    print("I can vote")
+else:
+    print("I can't vote")
+
+Q23. Write a code that displays the sum of all the even numbers from the given list.
+```
+numbers = [12, 75, 150, 180, 145, 525, 50]
+y=0
+for x in range(0, len(numbers)):
+    if numbers[x]%2 == 0:
+       y=numbers[x]+y
+print(y) 
+
+
+Q24. Write a code to take 3 numbers as an input from the user and display the greatest no as output.
+
+value_1 = int(input())
+value_2 = int(input())
+value_3 = int(input())
+
+if value_1 > value_2 and value_1 >  value_3:
+    print(value_1)
+elif value_2 > value_1 and value_2 > value_3:
+    print(value_2)
+else:
+    print(value_3)
+Q25. Write a program to display only those numbers from a list that satisfy the following conditions
+
+- The number must be divisible by five
+
+- If the number is greater than 150, then skip it and move to the next number
+
+- If the number is greater than 500, then stop the loop
+```
+numbers = [12, 75, 150, 180, 145, 525, 50]
+```
+for x in range(0, len(numbers)):    
+    if numbers[x]%5 == 0:
+       if numbers[x] > 150:
+         continue
+       print(numbers[x])  
+       if numbers[x] > 500:  
+         break          

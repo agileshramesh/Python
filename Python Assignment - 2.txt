@@ -1,7 +1,7 @@
 26.What is a string? How can we declare string in Python?
 
 Ans => String is a datatype which is used store the sequence of character
-str_value = "Hello World"
+str_value = "Hello Python"
 
 27.How can we access the string using its index?
 
